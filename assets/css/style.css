@@ -21,7 +21,7 @@ body {
 .container {
   max-width: 640px;
   margin: 50px auto;
-  background: #fff;
+  background: rgba(255, 255, 255, 0.856);
   padding: 20px;
   border-radius: 10px;
 }
@@ -45,7 +45,7 @@ form input:focus {
 form button {
   border: none;
   background: var(--primary-color);
-  color: #fff;
+  color: rgba(255, 255, 255, 0.849);
   font-size: 18px;
   font-weight: 700;
   height: 50px;
@@ -58,10 +58,10 @@ form button:hover {
 }
 
 .paragrafo-resultado, .bad {
-  background: rgb(109, 255, 182);
+  background: rgba(109, 255, 182, 0.774);
   padding: 10px 20px;
 }
 
 .bad {
-  background: rgb(255, 150, 150);
+  background: rgba(255, 150, 150, 0.829);
 }
